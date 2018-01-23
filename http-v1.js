@@ -1,7 +1,5 @@
 var https = require('https');
 
-
-
 //every chunks strats in a new line. not a well-writen document
 var getAndPrintHTMLChunks = function(){
   var requireOptions = {
