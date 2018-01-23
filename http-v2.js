@@ -1,9 +1,10 @@
-var https = require('https');
 
 
 
-//
+//fix format
+//fix loading time
 var getAndPrintHTMLChunks = function(){
+  var https = require('https');
   var requireOptions = {
     host: 'sytantris.github.io',
     path: '/http-examples/step2.html'
